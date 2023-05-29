@@ -1,0 +1,23 @@
+.main_container {
+  background-color: #fc5193;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.banner_section_container {
+    width: 50%;
+}
+.banner_section_main_text {
+  align-self: center;
+  font-size: 2rem;
+}
+
+.banner_stadium_img {
+  background-color: #000;
+  width: 50%;
+}
