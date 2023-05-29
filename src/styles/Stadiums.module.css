@@ -1,0 +1,6 @@
+.main_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fc5193;
+}
