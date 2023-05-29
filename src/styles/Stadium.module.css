@@ -3,7 +3,7 @@
   background-color: #ec4c8a;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 0.5fr;  
+  grid-template-rows: 2fr 0.5fr;
   margin: 1%;
 }
 
@@ -13,8 +13,8 @@
   grid-row: 1/2;
 }
 
-.stadium_mini_info{
-    grid-column: 1/2;
+.stadium_mini_info {
+  grid-column: 1/2;
   grid-row: 2/3;
 }
 
@@ -31,7 +31,7 @@
   width: 11.2rem;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;  
+  text-overflow: ellipsis;
 }
 
 .capacity {

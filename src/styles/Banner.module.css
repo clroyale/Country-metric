@@ -10,8 +10,9 @@
 }
 
 .banner_section_container {
-    width: 50%;
+  width: 50%;
 }
+
 .banner_section_main_text {
   align-self: center;
   font-size: 2rem;
