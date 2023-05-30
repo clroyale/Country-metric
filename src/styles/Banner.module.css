@@ -18,7 +18,8 @@
   font-size: 2rem;
 }
 
-.banner_stadium_img {
-  background-color: #000;
+.banner_world_img {
   width: 50%;
+  background-color: #fc5193;
+  opacity: 0.2;
 }

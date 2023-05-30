@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
-import Stadiums from './Stadiums';
+import Stadiums from './Countries';
 
 const Home = () => (
   <>

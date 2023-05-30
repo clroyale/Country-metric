@@ -1,14 +1,14 @@
 import React from 'react';
-import stadium from '../assets/stadium.jpg';
+import world from '../assets/world_map.png';
 import styles from '../styles/Banner.module.css';
 
 function Banner() {
   return (
     <div className={styles.main_container}>
       <img
-        src={stadium}
+        src={world}
         alt="banner-stadium"
-        className={styles.banner_stadium_img}
+        className={styles.banner_world_img}
       />
       <div className={styles.banner_section_container}>
         <h1 className={styles.banner_section_main_text}>World Stadiums</h1>
