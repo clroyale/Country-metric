@@ -8,12 +8,12 @@ import styles from '../styles/Navbar.module.css';
 const Navbar = () => (
   <header className={styles.main_container}>
     <div>
-      <Link to="/">
+      <Link to="/" className={styles.back_link}>
         <IoIosArrowBack />
       </Link>
     </div>
     <nav>
-      <div>stadiums</div>
+      <div className={styles.country_text}>countries</div>
     </nav>
     <div className={styles.icons_container}>
       <BsMic />

@@ -24,6 +24,7 @@
     "import/no-unresolved": "off",
     "no-shadow": "off",
     "react/prop-types": "off",
+    "max-len":"off",
    "jsx-a11y/control-has-associated-label":"off"
   },
   "overrides": [
