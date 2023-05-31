@@ -1,18 +1,12 @@
 import React from 'react';
-import world from '../assets/world_map.png';
 import styles from '../styles/Banner.module.css';
+import worldImg from '../assets/world_map.png';
 
 function Banner() {
   return (
     <div className={styles.main_container}>
-      <img
-        src={world}
-        alt="banner-stadium"
-        className={styles.banner_world_img}
-      />
-      <div className={styles.banner_section_container}>
-        <h1 className={styles.banner_section_main_text}>World Stadiums</h1>
-      </div>
+      <img src={worldImg} className={styles.banner_img} alt="world-map" />
+      <h1 className={styles.banner_section_main_text}>Countries of The World</h1>
     </div>
   );
 }

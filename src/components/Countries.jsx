@@ -1,41 +1,44 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useSelector } from 'react-redux';
 import Country from './Country';
 import styles from '../styles/Countries.module.css';
-import imagePath from '../assets/world_map.png';
+import continentMapImage from './ContinentMap';
 
 function Countries() {
-  const Data = [
-    {
-      id: '1',
-      name: 'Baba yara',
-      capacity: 4500,
-    },
-    {
-      id: '2',
-      name: 'Accra Sports Stadium',
-      capacity: 4500,
-    },
-    {
-      id: '3',
-      stadium: 'Camp Nou',
-      capacity: 100000,
-    },
-    {
-      id: '4',
-      name: 'Signa Iduna Park',
-      capacity: 9800,
-    },
-  ];
+  const { countries } = useSelector((state) => state.countries);
+  const [findCountry, setFindCountry] = useState('');
+
+  const handleCountrySearch = (e) => {
+    setFindCountry(e.target.value);
+  };
+
+  const resultantCountries = countries.filter((item) => item.name.common.toLowerCase().includes(findCountry.toLowerCase()));
+
   return (
     <div className={styles.main_container}>
-      {Data.map((country) => (
-        <Country
-          key={country.id}
-          country={country.name}
-          capacity={country.capacity}
-          image={imagePath}
+      <div className={styles.search_input_container}>
+        <input
+          type="search"
+          name=""
+          id=""
+          placeholder="enter country name to search"
+          value={findCountry}
+          onChange={handleCountrySearch}
+          className={styles.search_input}
         />
-      ))}
+      </div>
+      <div className={styles.countries_container}>
+        {resultantCountries.map((country) => (
+          <Country
+            key={country.id}
+            Id={country.id}
+            country={country.name.common}
+            region={country.subregion}
+            capacity={country.population}
+            image={continentMapImage(country.region, country.subregion)}
+          />
+        ))}
+      </div>
     </div>
   );
 }

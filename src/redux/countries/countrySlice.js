@@ -2,24 +2,24 @@ import { createSlice } from '@reduxjs/toolkit';
 import getAllCountries from './CountryActions';
 
 const initialState = {
-  Countries: [],
+  countries: [],
 };
 
 const countrySlice = createSlice({
   name: 'countries',
   initialState,
   reducers: {
-    getcountry: (state, { payload }) => {
-      const selectedCountry = state.Countries.filter((Country) => Country.Country_id === payload);
+    getCountry: (state, { payload }) => {
+      const selectedCountry = state.countries.filter((Country) => Country.Country.id === payload);
       return selectedCountry;
     },
   },
   extraReducers: {
     [getAllCountries.fulfilled]: (state, { payload }) => {
-      state.Countries = payload;
+      state.countries = payload;
     },
   },
-
 });
 
+export const { getCountry } = countrySlice.actions;
 export default countrySlice.reducer;

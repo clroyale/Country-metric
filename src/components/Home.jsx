@@ -1,12 +1,11 @@
 import React from 'react';
 import Banner from './Banner';
-import Stadiums from './Countries';
+import Countries from './Countries';
 
 const Home = () => (
   <>
     <Banner />
-    <Stadiums />
+    <Countries />
   </>
 );
-
 export default Home;
