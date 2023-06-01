@@ -18,3 +18,11 @@
   font-size: 1rem;
   margin: 0.5rem;
 }
+
+@media (min-width: 768px) {
+  .search_input {
+    width: 50%;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+}

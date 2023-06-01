@@ -20,7 +20,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" Component={Home} />
-          <Route path="/details" Component={Details} />
+          <Route path="/details/:country" Component={Details} />
         </Routes>
       </Router>
     </div>
