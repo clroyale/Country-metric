@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details Should render correctly 1`] = `
+<div
+  className="main_container"
+>
+  <div
+    className="coat_of_arms_name_container"
+  >
+    <div
+      className="coat_of_arms_container"
+    >
+      <img
+        alt=""
+        className="coat_of_arms"
+        src="image-link.png"
+      />
+    </div>
+    <div
+      className="country_name_container"
+    >
+      <h2
+        className="country_name"
+      >
+        country one
+      </h2>
+    </div>
+  </div>
+  <div>
+    <h2
+      className="break_down_text"
+    >
+      Information break down
+    </h2>
+  </div>
+  <ul
+    className="information_section"
+  >
+    <li
+      className="info_list"
+    >
+      <span
+        className="info_title"
+      >
+        Official name:
+      </span>
+    </li>
+    <li
+      className="info_list"
+    >
+      <span
+        className="info_title"
+      >
+        Capital:
+      </span>
+    </li>
+    <li
+      className="info_list"
+    >
+      <span
+        className="info_title"
+      >
+        Continent:
+      </span>
+    </li>
+    <li
+      className="info_list"
+    >
+      <span
+        className="info_title"
+      >
+        Subregion:
+      </span>
+    </li>
+    <li
+      className="info_list"
+    >
+      <span
+        className="info_title"
+      >
+        Population:
+      </span>
+      1234
+    </li>
+    <li
+      className="info_list"
+    >
+      <span
+        className="info_title"
+      >
+        Area:
+      </span>
+      undefined km²
+    </li>
+  </ul>
+</div>
+`;

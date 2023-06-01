@@ -42,3 +42,17 @@
   text-align: right;
   color: #fff;
 }
+
+@media (min-width: 768px) {
+  .main_container {
+    width: 23%;
+  }
+
+  .country_name {
+    font-size: 1.7rem;
+  }
+
+  .capacity {
+    font-size: 1.3rem;
+  }
+}
