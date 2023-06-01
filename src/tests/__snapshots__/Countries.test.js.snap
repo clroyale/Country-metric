@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries Should render correctly 1`] = `
+<div
+  className="main_container"
+>
+  <div
+    className="search_input_container"
+  >
+    <input
+      className="search_input"
+      id=""
+      name=""
+      onChange={[Function]}
+      placeholder="enter country name to search"
+      type="search"
+      value=""
+    />
+  </div>
+  <div
+    className="countries_container"
+  >
+    <a
+      className="main_container"
+      href="/details/country 1"
+      onClick={[Function]}
+    >
+      <img
+        alt="country 1-flag"
+        src={null}
+      />
+      <div
+        className="country_mini_info"
+      >
+        <h2
+          className="country_name"
+        >
+          country 1
+        </h2>
+        <p
+          className="capacity"
+        >
+          1234
+        </p>
+      </div>
+    </a>
+    <a
+      className="main_container"
+      href="/details/country 2"
+      onClick={[Function]}
+    >
+      <img
+        alt="country 2-flag"
+        src={null}
+      />
+      <div
+        className="country_mini_info"
+      >
+        <h2
+          className="country_name"
+        >
+          country 2
+        </h2>
+        <p
+          className="capacity"
+        >
+          1200
+        </p>
+      </div>
+    </a>
+    <a
+      className="main_container"
+      href="/details/country 3"
+      onClick={[Function]}
+    >
+      <img
+        alt="country 3-flag"
+        src={null}
+      />
+      <div
+        className="country_mini_info"
+      >
+        <h2
+          className="country_name"
+        >
+          country 3
+        </h2>
+        <p
+          className="capacity"
+        >
+          1534
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;
