@@ -115,7 +115,7 @@ You can deploy this project using Github pages, render or netlify.
 
 - GitHub: [Adams-Ghub](https://github.com/Adams-Ghub)
 - Twitter: [@bamfoaf](https://twitter.com/bamfoaf)
-- LinkedIn: [Adams Bamfo](https://www.linkedin.com/in/adams-bamfo-3aaa3011b/)
+- LinkedIn: [Adams Bamfo](https://www.linkedin.com/in/adams-bamfo/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
